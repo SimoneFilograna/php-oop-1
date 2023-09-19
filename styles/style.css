@@ -1,0 +1,13 @@
+.card-img-top{
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    object-position: top;
+}
+
+body{
+    background-image: url(../db/assets/bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: center;
+}
+

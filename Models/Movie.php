@@ -3,16 +3,17 @@
         public $title;
         public $description;
         public $year;
-        public $actors;
+        public $category;
+        public $img;
 
-        function __construct($_title, $_year, )
+        function __construct(string $_title, int $_year)
         {
             $this->title = $_title;
             $this->year = $_year;           
         }
 
         public function fullTitle(){
-            return $this->title . "(". $this->year. ")";
+            return $this->title . "( ". $this->year. ")";
         }
     };
 ?>
